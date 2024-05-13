@@ -36,7 +36,7 @@
 ## Links to source code and live site:
 
 - [Live site hosted on Netlify](https://react-youtubeclone.netlify.app/)
-- [Source code on Github](https://github.com/1codingguy/react-youtube-clone)
+- [Source code on Github](https://github.com/MykytaFullStack/React-Youtube-Clone)
 
 ## Detailed side-by-side comparison of the clone to the original
 
@@ -52,17 +52,17 @@
 
 ## How to navigate this project? Click on the link for related source code:
 
-1. Click on different countries in `ChipsBar` will display the most popular videos from that country, by querying the YouTube API. ([click here to view the `Chips` component](https://github.com/1codingguy/react-youtube-clone/blob/main/src/components/ChipsBar/Chips.jsx))
+1. Click on different countries in `ChipsBar` will display the most popular videos from that country, by querying the YouTube API. ([click here to view the `Chips` component](https://github.com/MykytaFullStack/React-Youtube-Clone/blob/main/src/components/ChipsBar/Chips.jsx))
 
 2. Header (Navbar) has different elements in different viewport size:
-   ![clone-header](./readme_assets/clone-header.gif) - `HamburgerMenuIcon` is hidden in mobile view. ([click here for `LeftContainer` component for details](https://github.com/1codingguy/react-youtube-clone/blob/main/src/components/Header/LeftContainer/LeftContainer.jsx)) - `SearchBox` is hidden in mobile view, a drawer will appear when clicked on the search icon. And ([Click here to view relevant code](https://github.com/1codingguy/react-youtube-clone/blob/main/src/components/Header/MiddleContainer/MiddleContainer.jsx#L67)) - `SearchPage` has a different YouTube logo in mobile view. There is also a filter button next to the search box (albeit not functional).
+   ![clone-header](./readme_assets/clone-header.gif) - `HamburgerMenuIcon` is hidden in mobile view. ([click here for `LeftContainer` component for details](https://github.com/MykytaFullStack/React-Youtube-Clone/blob/main/src/components/Header/LeftContainer/LeftContainer.jsx)) - `SearchBox` is hidden in mobile view, a drawer will appear when clicked on the search icon. And ([Click here to view relevant code](https://github.com/MykytaFullStack/React-Youtube-Clone/blob/main/src/components/Header/MiddleContainer/MiddleContainer.jsx#L67)) - `SearchPage` has a different YouTube logo in mobile view. There is also a filter button next to the search box (albeit not functional).
 
 3. `HamburgerMenuIcon` has different roles:
-   ![sidebar-toggle](./readme_assets/Sidebar-toggle.gif) - In larger screen toggles between mini and full-width sidebar; - in smaller screen opens a drawer. - [Click here for `HamburgerMenuIcon` component](https://github.com/1codingguy/react-youtube-clone/blob/main/src/components/Header/LeftContainer/HamburgerMenuIcon.jsx) - Content of Sidebar is different depends on the screen size. [Click here to show the code that decide what Sidebar to show](https://github.com/1codingguy/react-youtube-clone/blob/main/src/components/Sidebar/SidebarToShow.jsx#L12)
+   ![sidebar-toggle](./readme_assets/Sidebar-toggle.gif) - In larger screen toggles between mini and full-width sidebar; - in smaller screen opens a drawer. - [Click here for `HamburgerMenuIcon` component](https://github.com/MykytaFullStack/React-Youtube-Clone/blob/main/src/components/Header/LeftContainer/HamburgerMenuIcon.jsx) - Content of Sidebar is different depends on the screen size. [Click here to show the code that decide what Sidebar to show](https://github.com/MykytaFullStack/React-Youtube-Clone/blob/main/src/components/Sidebar/SidebarToShow.jsx#L12)
 
-4. A popup menu will appear if clicked on `MoreButton` in each `VideoCard`. [Click here to view `MoreButton` component](https://github.com/1codingguy/react-youtube-clone/blob/main/src/components/Videos/MoreButton.jsx)
+4. A popup menu will appear if clicked on `MoreButton` in each `VideoCard`. [Click here to view `MoreButton` component](https://github.com/MykytaFullStack/React-Youtube-Clone/blob/main/src/components/Videos/MoreButton.jsx)
 
-5. A search result can be a video or a channel, they have different content and are displayed differently in the SearchPage. [Click here to view the relevant code](https://github.com/1codingguy/react-youtube-clone/blob/main/src/components/Search/ResultsVideoCard.jsx#L64)
+5. A search result can be a video or a channel, they have different content and are displayed differently in the SearchPage. [Click here to view the relevant code](https://github.com/MykytaFullStack/React-Youtube-Clone/blob/main/src/components/Search/ResultsVideoCard.jsx#L64)
    ![search-results](/public/assets/search_results.png)
 
 ## Some notable differences between original YouTube and my clone:
@@ -98,10 +98,10 @@ From your command line, first clone this repo:
 
 ```
 # Clone this repository
-$ https://github.com/1codingguy/react-youtube-clone.git
+$ https://github.com/MykytaFullStack/React-Youtube-Clone.git
 
 # Go into the repository
-$ cd react-youtube-clone
+$ cd React-Youtube-Clone
 
 # Remove current origin repository
 $ git remote remove origin
@@ -122,10 +122,4 @@ Happy coding!
 
 ---
 
-## Author
 
-**coding-guy**
-
-- [GitHub](https://github.com/1codingguy)
-- [Blog](https://blog.coding-guy.com/)
-- [Twitter](https://twitter.com/1codingguy)
