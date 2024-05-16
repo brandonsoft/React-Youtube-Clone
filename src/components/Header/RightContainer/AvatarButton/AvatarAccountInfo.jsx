@@ -16,8 +16,8 @@ export const AvatarAccountInfo = ({ onClick }) => {
     <AccountInfoHeader style={isMobileView ? { padding: '8px' } : null}>
       <Avatar>c</Avatar>
       <Box>
-        <AccountName>coding-guy</AccountName>
-        <AccountEmail>1codingguy@gmail.com</AccountEmail>
+        <AccountName>Awesome Dev</AccountName>
+        <AccountEmail>support@gmail.com</AccountEmail>
         <ManageAccountButton onClick={onClick}>
           Manage your Google Account
         </ManageAccountButton>
