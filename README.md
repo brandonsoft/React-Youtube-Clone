@@ -4,7 +4,7 @@
 
 ![demo-gif](./readme_assets/youtube-clone-demo.gif)
 
-### Or Go to the live site and try it for yourself [here](https://react-youtubeclone.netlify.app/)
+### Or Go to the live site and try it for yourself [here](https://react-youtube-clone-tan.vercel.app)
 
 ## WARNING
 <strong> if the app does not load anything or the search function doesn't work, it is very likely the daily YouTube API quota has exceeded. There are only 5000 daily quotas for free usage, and each search costs 100 quotas. If the app doesn't work, I hope the animated GIF here can give you an idea of how it works. </strong>
@@ -35,7 +35,7 @@
 
 ## Links to source code and live site:
 
-- [Live site hosted on Netlify](https://react-youtubeclone.netlify.app/)
+- [Live site hosted on Vercel](https://react-youtube-clone-tan.vercel.app/)
 - [Source code on Github](https://github.com/awesomedev77/React-Youtube-Clone)
 
 ## Detailed side-by-side comparison of the clone to the original
