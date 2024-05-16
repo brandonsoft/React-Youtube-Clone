@@ -36,7 +36,7 @@
 ## Links to source code and live site:
 
 - [Live site hosted on Netlify](https://react-youtubeclone.netlify.app/)
-- [Source code on Github](https://github.com/MykytaFullStack/React-Youtube-Clone)
+- [Source code on Github](https://github.com/awesomedev77/React-Youtube-Clone)
 
 ## Detailed side-by-side comparison of the clone to the original
 
